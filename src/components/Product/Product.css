@@ -1,6 +1,14 @@
 .product {
     width: 300px;
     height: 510px;
+    border: 1px solid gray;
+    margin: 1rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.products-info {
+    padding: .5rem;
 }
 
 .product img {
@@ -10,5 +18,25 @@
 }
 
 .product-name {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
+    margin: .5rem 0;
+}
+
+.product-info {
+    margin: .1rem;
+}
+
+.btn-cart {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 1rem 1rem;
+    border: none;
+    background-color: #FFE0B3;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    background-color: orange;
 }
