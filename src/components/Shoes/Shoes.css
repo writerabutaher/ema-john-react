@@ -6,5 +6,9 @@
 .product-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 3rem;
+    margin: 2rem 4rem;
+}
+
+.cart-container {
+    background: rgba(255, 153, 0, 0.3);
 }
